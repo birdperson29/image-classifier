@@ -2,16 +2,16 @@
 
 The goal was to create an application that could identify flowers in images and potentially be used in a smartphone app.
 
-##Loaded and Preprocessed the Image Dataset:
+## Loaded and Preprocessed the Image Dataset:
 I started by obtaining the flower image dataset, which contained 102 different flower categories.
 I preprocessed the dataset, which typically involved tasks like resizing images, normalizing pixel values, and dividing it into training and testing sets.
 
-##Trained the Image Classifier:
+## Trained the Image Classifier:
 I used deep learning techniques to train a neural network model on the preprocessed image dataset.
 The model learned to recognize and classify different flower species based on the input images.
 Training involved defining the neural network architecture, specifying hyperparameters, and optimizing the model's weights using a training dataset.
 
-##Used the Trained Classifier to Predict Image Content:
+## Used the Trained Classifier to Predict Image Content:
 After training the image classifier, I could use it to make predictions on new, unseen images.
 Given an image as input, the classifier provided the predicted flower species.
 
